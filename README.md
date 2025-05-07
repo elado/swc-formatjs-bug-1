@@ -1,0 +1,1 @@
+# swc-formatjs-bug-1
