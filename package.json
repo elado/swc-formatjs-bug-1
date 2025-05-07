@@ -1,0 +1,20 @@
+{
+  "name": "swc-formatjs-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "swc src --out-dir dist --strip-leading-paths"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-intl": "^7.1.11"
+  },
+  "devDependencies": {
+    "@swc/cli": "0.7.3",
+    "@swc/core": "^1.11.24",
+    "@swc/plugin-formatjs": "^3.2.2"
+  }
+}
